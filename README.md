@@ -23,8 +23,13 @@
 Este proyecto configura un entorno utilizando Docker Compose, que consta de tres contenedores interconectados:
 
 1. Proxy (Nginx): Funciona como un proxy reverso, gestionando las solicitudes que llegan al puerto 80.
+Puerto:80
+
 2. Aplicación Web 1 - Logisim Web: Ejecutada en el contenedor de app1.
+Puerto:8000
+
 3. Aplicación Web 2 - Sintaxify: Ejecutada en el contenedor de app2.
+Puerto:8001
 
 ## Estructura del Proyecto
 
