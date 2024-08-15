@@ -1,6 +1,11 @@
-FROM python:3.9-slim
-WORKDIR /app_web
-COPY . /app_web
-RUN pip install -r requirements.txt
+FROM node:12.18.3-alpine3.12
+
+RUN npm install -g http-server
+
+WORKDIR /Sintaxify
+
+COPY Sintaxify/ .
+
 EXPOSE 8001
-CMD ["python" , "./app_web.py"]
+
+CMD [ "http-server", ".", "-p", "8001" ]
