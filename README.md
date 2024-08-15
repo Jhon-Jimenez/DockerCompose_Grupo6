@@ -1,6 +1,6 @@
 # Desarrollo con Docker Compose
 
-## Integrantes
+## Integrantes - Grupo 6
 
 - Jhon Janner Jimenez Zuleta
 - Sergio Rodriguez Cabana
