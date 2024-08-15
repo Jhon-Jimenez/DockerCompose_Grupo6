@@ -5,13 +5,23 @@
 - Jhon Janner Jimenez Zuleta
 - Sergio Rodriguez Cabana
 
+## Tecnologías Utilizadas
+
+- **Contenedores:**
+  - ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+  - ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
+- **Aplicaciones Web:**
+  - **Sintaxify** tomado de: [Sintaxify](https://github.com/proyectosingenieriauninorte/Sintaxify.git)
+  - **Logisim Web** tomado de: [Logisim Web](https://github.com/proyectosingenieriauninorte/LogisimWeb.git)
+
 ## Descripción
 
 Este proyecto configura un entorno utilizando Docker Compose, que consta de tres contenedores interconectados:
 
 1. Proxy (Nginx): Funciona como un proxy reverso, gestionando las solicitudes que llegan al puerto 80.
-2. Aplicación Web 1: Ejecutada en el contenedor app1.
-3. Aplicación Web 2: Ejecutada en el contenedor app2.
+2. Aplicación Web 1 - Logisim Web: Ejecutada en el contenedor de app1.
+3. Aplicación Web 2 - Sintaxify: Ejecutada en el contenedor de app2.
 
 ## Estructura del Proyecto
 
@@ -59,5 +69,5 @@ Este comando construirá y lanzará los contenedores definidos en el archivo doc
 Abre tu navegador web y visita las siguientes URLs:
 
 * Página de bienvenida: http://localhost:8081
-* Aplicación Web 1: http://localhost/c2/
-* Aplicación Web 2: http://localhost/c3/
+* Logisim Web: http://localhost/c2/
+* Sintaxify: http://localhost/c3/
