@@ -53,6 +53,6 @@ Este comando construirá y lanzará los contenedores definidos en el archivo doc
 
 Abre tu navegador web y visita las siguientes URLs:
 
-* Página de bienvenida: http://localhost:80
+* Página de bienvenida: http://localhost:8081
 * Aplicación Web 1: http://localhost/c2/
 * Aplicación Web 2: http://localhost/c3/
