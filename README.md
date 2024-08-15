@@ -7,13 +7,16 @@
 
 ## Tecnologías Utilizadas
 
-- **Contenedores:**
-  - ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  - ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
 - **Aplicaciones Web:**
   - **Sintaxify** tomado de: [Sintaxify](https://github.com/proyectosingenieriauninorte/Sintaxify.git)
   - **Logisim Web** tomado de: [Logisim Web](https://github.com/proyectosingenieriauninorte/LogisimWeb.git)
+
+- **Contenedores:**
+  - ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+  **Proxy**
+  - ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
 
 ## Descripción
 
