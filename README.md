@@ -1,5 +1,10 @@
 # Desarrollo con Docker Compose
 
+## Integrantes
+
+- Jhon Janner Jimenez Zuleta
+- Sergio Rodriguez Cabana
+
 ## Descripción
 
 Este proyecto configura un entorno utilizando Docker Compose, que consta de tres contenedores interconectados:
